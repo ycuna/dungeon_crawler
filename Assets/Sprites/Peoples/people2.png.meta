@@ -1,28 +1,43 @@
 fileFormatVersion: 2
-guid: 87ed81f13738fea4c8a74156d6867c41
+guid: a7b2ce8fbe0c1aa4aa1d078a29928b4d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4363681815367119060
-    second: 3ZombieSpriteSheet_0
+      213: -4241535821904928604
+    second: people2_0
   - first:
-      213: -332564437450449699
-    second: 3ZombieSpriteSheet_1
+      213: -5211394057538724315
+    second: people2_1
   - first:
-      213: 2713400174155292920
-    second: 3ZombieSpriteSheet_2
+      213: 7939944875130201002
+    second: people2_2
   - first:
-      213: -237457157150935763
-    second: 3ZombieSpriteSheet_3
+      213: -5444824553170928031
+    second: people2_3
   - first:
-      213: 9032069717652712250
-    second: 3ZombieSpriteSheet_4
+      213: -871332886016451465
+    second: people2_4
   - first:
-      213: -346453185223780800
-    second: 3ZombieSpriteSheet_5
+      213: 3503561251084409980
+    second: people2_5
   - first:
-      213: 2961454311200946095
-    second: 3ZombieSpriteSheet_6
+      213: 6256070712237613471
+    second: people2_6
+  - first:
+      213: -5484662003624234948
+    second: people2_7
+  - first:
+      213: -8790514992442208878
+    second: people2_8
+  - first:
+      213: 873994511439523955
+    second: people2_9
+  - first:
+      213: 9167149942879757348
+    second: people2_10
+  - first:
+      213: -4164415993939580997
+    second: people2_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,265 +146,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_0
+      name: people2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
-        width: 41
-        height: 36
+        x: 4
+        y: 119
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 33abd78e9fa1b494e98924c30229e7da
-      internalID: -1062065976
+      spriteID: 4a0234184a90325c0800000000000000
+      internalID: -4241535821904928604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_1
+      name: people2_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 108
-        width: 41
-        height: 36
+        x: 44
+        y: 119
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 371bac55eec39ab4086f51b04ce016cf
-      internalID: -1989399195
+      spriteID: 52e92df37b86da7b0800000000000000
+      internalID: -5211394057538724315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_2
+      name: people2_2
       rect:
         serializedVersion: 2
-        x: 82
-        y: 108
-        width: 41
-        height: 36
+        x: 84
+        y: 119
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0c509bf934c0ea44aa0a46fe8f82e5e4
-      internalID: -1106806959
+      spriteID: aa3a15adbc9503e60800000000000000
+      internalID: 7939944875130201002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_3
+      name: people2_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 41
-        height: 36
+        x: 3
+        y: 79
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bda7c90ad04cf7d4cb8815ed5f5c63f5
-      internalID: 307102507
+      spriteID: 16efbe3bae81074b0800000000000000
+      internalID: -5444824553170928031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_4
+      name: people2_4
       rect:
         serializedVersion: 2
-        x: 41
-        y: 72
-        width: 41
-        height: 36
+        x: 43
+        y: 79
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 53dfa945b4be7ba4e819c40001d98e6e
-      internalID: -1356856676
+      spriteID: 77c9fdf4b5768e3f0800000000000000
+      internalID: -871332886016451465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_5
+      name: people2_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 72
-        width: 41
-        height: 36
+        x: 83
+        y: 79
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a1e98d51e312aa647a8b7268844587d9
-      internalID: 778643927
+      spriteID: c7c95bb25662f9030800000000000000
+      internalID: 3503561251084409980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_6
+      name: people2_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
-        width: 41
-        height: 36
+        x: 4
+        y: 39
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b22f17673c7e28478f037a95d56e82b
-      internalID: -1808113223
+      spriteID: f91e5acaa2702d650800000000000000
+      internalID: 6256070712237613471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_7
+      name: people2_7
       rect:
         serializedVersion: 2
-        x: 41
-        y: 36
-        width: 41
-        height: 36
+        x: 44
+        y: 39
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7f7bd4efb8e8b614e9f937eb3cf8002e
-      internalID: 813367365
+      spriteID: c3035e877f092e3b0800000000000000
+      internalID: -5484662003624234948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_8
+      name: people2_8
       rect:
         serializedVersion: 2
-        x: 82
-        y: 36
-        width: 41
-        height: 36
+        x: 84
+        y: 39
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1893317c9848bfc44aa5d2ac43c2461f
-      internalID: 79576036
+      spriteID: 29d8cb24031d10680800000000000000
+      internalID: -8790514992442208878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_9
+      name: people2_9
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 41
-        height: 36
+        width: 33
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 512c06e8aa66a1142bd5d7a74e47ef73
-      internalID: -791872755
+      spriteID: 3707ef5a06d012c00800000000000000
+      internalID: 873994511439523955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_10
+      name: people2_10
       rect:
         serializedVersion: 2
-        x: 41
+        x: 43
         y: 0
-        width: 41
-        height: 36
+        width: 33
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4925bdd03d3d94243a1ef69fce3089ea
-      internalID: -1154144956
+      spriteID: 424271cad42483f70800000000000000
+      internalID: 9167149942879757348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3ZombieSpriteSheet_11
+      name: people2_11
       rect:
         serializedVersion: 2
-        x: 82
+        x: 83
         y: 0
-        width: 41
-        height: 36
+        width: 33
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 09ef8a71818e6d24bb4885e037d45e35
-      internalID: -570891260
+      spriteID: bb7a640b7b50536c0800000000000000
+      internalID: -4164415993939580997
       vertices: []
       indices: 
       edges: []
@@ -398,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f48689614a14b1b498eb874f913d4a8c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -407,19 +422,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      3ZombieSpriteSheet_0: -1062065976
-      3ZombieSpriteSheet_1: -1989399195
-      3ZombieSpriteSheet_10: -1154144956
-      3ZombieSpriteSheet_11: -570891260
-      3ZombieSpriteSheet_2: -1106806959
-      3ZombieSpriteSheet_3: 307102507
-      3ZombieSpriteSheet_4: -1356856676
-      3ZombieSpriteSheet_5: 778643927
-      3ZombieSpriteSheet_6: -1808113223
-      3ZombieSpriteSheet_7: 813367365
-      3ZombieSpriteSheet_8: 79576036
-      3ZombieSpriteSheet_9: -791872755
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
