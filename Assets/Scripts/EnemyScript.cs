@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
@@ -8,6 +9,7 @@ public class EnemyScript : MonoBehaviour
     private bool targetCollision = false;
     private float speed = 2.0f;
     private float thrust = 2.0f;
+    public int health = 5;
     void Start()
     {
         
@@ -55,5 +57,10 @@ public class EnemyScript : MonoBehaviour
     {
         targetCollision = false;
         GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
+    }
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
     }
 }
