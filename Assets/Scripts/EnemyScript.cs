@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
@@ -8,8 +9,9 @@ public class EnemyScript : MonoBehaviour
     private float minDistance = 5.0f;
     private bool targetCollision = false;
     private float speed = 2.0f;
-    private float thrust = 2.0f;
+    private float thrust = 1.5f;
     public int health = 5;
+    private int hitStrength = 20;
     void Start()
     {
         
@@ -33,10 +35,12 @@ public class EnemyScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if(collision.gameObject.CompareTag("Player") && !targetCollision)
         {
             Vector3 contactPoint = collision.contacts[0].point;
             Vector3 center = collision.collider.bounds.center;
+
+            targetCollision = true;
 
             targetCollision = true;
 
@@ -49,7 +53,7 @@ public class EnemyScript : MonoBehaviour
             if(left) GetComponent<Rigidbody2D>().AddForce(-transform.right*thrust, ForceMode2D.Impulse);
             if(top) GetComponent<Rigidbody2D>().AddForce(transform.up*thrust, ForceMode2D.Impulse);
             if(bottom) GetComponent<Rigidbody2D>().AddForce(-transform.up*thrust, ForceMode2D.Impulse);
-            Invoke("FalseCollision", 0.25f);
+            Invoke("FalseCollision", 0.5f);
         }
     }
 
@@ -62,5 +66,17 @@ public class EnemyScript : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
+        transform.GetChild(0).gameObject.SetActive(true);
+        Invoke("HideBlood", 0.25f);
+    }
+
+    void HideBlood()
+    {
+        transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    public int GetHitStrength()
+    {
+        return hitStrength;
     }
 }
