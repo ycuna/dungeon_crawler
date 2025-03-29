@@ -30476,6 +30476,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1537873334}
   health: 5
+  deathSprite: {fileID: -1636361275403969580, guid: 8d5ff06527090f34a959591df798fc26, type: 3}
+  sprites:
+  - {fileID: -1989399195, guid: 87ed81f13738fea4c8a74156d6867c41, type: 3}
+  - {fileID: -1188300462, guid: be7d0d2990cda5a4db6533fa6d1f1420, type: 3}
+  - {fileID: 20991845, guid: 0a6ad25fab6250244973445ea720ce47, type: 3}
+  - {fileID: 2037848611, guid: 3c354fdbde559b341a8ac1a502f3d407, type: 3}
+  - {fileID: -1078139414, guid: 7b75917aded626f4c9555ae1843fdac3, type: 3}
+  - {fileID: 1330729381, guid: 1f708e712f24dc547a1477ac6b4841ad, type: 3}
 --- !u!61 &1592316085
 BoxCollider2D:
   m_ObjectHideFlags: 0

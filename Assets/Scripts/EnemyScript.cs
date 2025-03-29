@@ -12,15 +12,21 @@ public class EnemyScript : MonoBehaviour
     private float thrust = 1.5f;
     public int health = 5;
     private int hitStrength = 20;
+
+    public Sprite deathSprite;
+    public Sprite[] sprites;
+
+    private bool isDead = false;
     void Start()
     {
-        
+        int rnd = UnityEngine.Random.Range(0, sprites.Length);
+        GetComponent<SpriteRenderer>().sprite = sprites[rnd];
     }
 
     void Update()
     {
       range = Vector2.Distance(transform.position, target.position);
-      if(range < minDistance)
+      if(range < minDistance && !isDead)
       {
             if(!targetCollision)
             {
@@ -66,6 +72,13 @@ public class EnemyScript : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
+        if(health <= 0)
+        {
+            isDead = true;
+            GetComponent<SpriteRenderer>().sprite = deathSprite;
+            GetComponent<Collider2D>().enabled = false;
+            Invoke("EnemyDeath", 1.0f);
+        }
         transform.GetChild(0).gameObject.SetActive(true);
         Invoke("HideBlood", 0.25f);
     }
@@ -73,6 +86,12 @@ public class EnemyScript : MonoBehaviour
     void HideBlood()
     {
         transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    void EnemyDeath()
+    {
+        Destroy(transform.GetChild(0).gameObject);
+        Destroy(gameObject);    
     }
 
     public int GetHitStrength()

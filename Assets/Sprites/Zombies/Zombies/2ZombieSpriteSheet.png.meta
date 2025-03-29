@@ -138,19 +138,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 33
-        height: 144
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1fd67b80f813d5880800000000000000
-      internalID: -8620679621320937999
+      spriteID: d7046d5645ce6cd458f0562af0bc2699
+      internalID: -669643981
       vertices: []
       indices: 
       edges: []
@@ -159,20 +159,20 @@ TextureImporter:
       name: 2ZombieSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 36
-        width: 33
-        height: 108
+        x: 41
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b16628e6acaec8b40800000000000000
-      internalID: 5443984204742419995
+      spriteID: d5a5ee93eaebc754c8286aa3e9909c65
+      internalID: 20991845
       vertices: []
       indices: 
       edges: []
@@ -181,20 +181,20 @@ TextureImporter:
       name: 2ZombieSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 92
-        y: 36
-        width: 32
-        height: 73
+        x: 82
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77a3134756c4de9b0800000000000000
-      internalID: -5049295608587666825
+      spriteID: 71d281c5e6517b3458596a408eb58da6
+      internalID: -798148900
       vertices: []
       indices: 
       edges: []
@@ -203,9 +203,9 @@ TextureImporter:
       name: 2ZombieSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 93
-        y: 108
-        width: 31
+        x: 0
+        y: 72
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91c31260cebb317a0800000000000000
-      internalID: -6407571222428566503
+      spriteID: d49505db133862948be1a0303a0dcc99
+      internalID: -1047422365
       vertices: []
       indices: 
       edges: []
@@ -225,20 +225,20 @@ TextureImporter:
       name: 2ZombieSpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 91
-        y: 78
-        width: 7
-        height: 8
+        x: 41
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c95e70dd7c4e61c30800000000000000
-      internalID: 4329899638821217692
+      spriteID: bcdeaa74529c53d4cb3280288425e3fa
+      internalID: 1817626254
       vertices: []
       indices: 
       edges: []
@@ -247,20 +247,20 @@ TextureImporter:
       name: 2ZombieSpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 32
-        height: 37
+        x: 82
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 32fdac9a929364df0800000000000000
-      internalID: -196406682638950621
+      spriteID: db101295c0cf77c409f14dfb6e05feb3
+      internalID: 1266787947
       vertices: []
       indices: 
       edges: []
@@ -269,20 +269,20 @@ TextureImporter:
       name: 2ZombieSpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 93
-        y: 0
-        width: 31
-        height: 37
+        x: 0
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 79a3216dfa897ff00800000000000000
-      internalID: 1150556110794668695
+      spriteID: 953e0097acb043b49b33d8ab9a5d66f7
+      internalID: 577836507
       vertices: []
       indices: 
       edges: []
@@ -291,20 +291,108 @@ TextureImporter:
       name: 2ZombieSpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 118
-        y: 6
-        width: 6
-        height: 8
+        x: 41
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa87ef6e5e69214e0800000000000000
-      internalID: -2012380169314076502
+      spriteID: bf2347fa03ea55b4c846501216c55045
+      internalID: -1011466910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2ZombieSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 36
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0e904f5649014fb5e3b0b93fb8076
+      internalID: 704158078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2ZombieSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3cf0a0e9db5294f99d85783110e33d
+      internalID: 1792811507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2ZombieSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1387e37e831b954428aa9f4420ef4e96
+      internalID: 2025701285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2ZombieSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0659234e01722f54798d2669e724eae4
+      internalID: -1103977851
       vertices: []
       indices: 
       edges: []
@@ -313,7 +401,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 71c63e8cd7884f140af42c548af49a73
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +410,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2ZombieSpriteSheet_0: -669643981
+      2ZombieSpriteSheet_1: 20991845
+      2ZombieSpriteSheet_10: 2025701285
+      2ZombieSpriteSheet_11: -1103977851
+      2ZombieSpriteSheet_2: -798148900
+      2ZombieSpriteSheet_3: -1047422365
+      2ZombieSpriteSheet_4: 1817626254
+      2ZombieSpriteSheet_5: 1266787947
+      2ZombieSpriteSheet_6: 577836507
+      2ZombieSpriteSheet_7: -1011466910
+      2ZombieSpriteSheet_8: 704158078
+      2ZombieSpriteSheet_9: 1792811507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

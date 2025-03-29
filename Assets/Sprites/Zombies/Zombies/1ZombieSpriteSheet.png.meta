@@ -145,7 +145,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 108
-        width: 33
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 31ff722e80396bd50800000000000000
-      internalID: 6752746357651930899
+      spriteID: 23fcf11cf9230cc45bde6ecc807e90b2
+      internalID: 976791004
       vertices: []
       indices: 
       edges: []
@@ -165,20 +165,20 @@ TextureImporter:
       name: 1ZombieSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 33
-        height: 109
+        x: 41
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa659c38785be7480800000000000000
-      internalID: -8899476220001298769
+      spriteID: 99bb643195160d748bd61dca694d42e6
+      internalID: -1188300462
       vertices: []
       indices: 
       edges: []
@@ -187,9 +187,9 @@ TextureImporter:
       name: 1ZombieSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 46
+        x: 82
         y: 108
-        width: 33
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 363541f10193c29b0800000000000000
-      internalID: -5103641536313928861
+      spriteID: e3d8da212aea27c4ab24286cfcca0003
+      internalID: 2010511993
       vertices: []
       indices: 
       edges: []
@@ -209,20 +209,20 @@ TextureImporter:
       name: 1ZombieSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 46
-        y: 36
-        width: 33
-        height: 73
+        x: 0
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 552b6aa5d61d434f0800000000000000
-      internalID: -849824162063666603
+      spriteID: fb7a377f782f18f46a7bfa5a82a36c5b
+      internalID: -2019177806
       vertices: []
       indices: 
       edges: []
@@ -231,9 +231,9 @@ TextureImporter:
       name: 1ZombieSpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 92
-        y: 108
-        width: 32
+        x: 41
+        y: 72
+        width: 41
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e693b165f2328450800000000000000
-      internalID: 6089485675645867745
+      spriteID: c6dc65e9a7bc1624c86073d1b678b9ee
+      internalID: -1510079055
       vertices: []
       indices: 
       edges: []
@@ -253,20 +253,20 @@ TextureImporter:
       name: 1ZombieSpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 92
-        y: 36
-        width: 32
-        height: 73
+        x: 82
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e39240a66da855b0800000000000000
-      internalID: -5379359098607070237
+      spriteID: ea402dc01f475e34f9e72aab005f813c
+      internalID: 1574579604
       vertices: []
       indices: 
       edges: []
@@ -275,20 +275,20 @@ TextureImporter:
       name: 1ZombieSpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 91
-        y: 78
-        width: 7
-        height: 8
+        x: 0
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fe838071d1152390800000000000000
-      internalID: -7843843584762343688
+      spriteID: ab609c405b7c1504f94c299c84a7868a
+      internalID: 250991996
       vertices: []
       indices: 
       edges: []
@@ -297,20 +297,20 @@ TextureImporter:
       name: 1ZombieSpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 32
-        height: 37
+        x: 41
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02a85155e46afde20800000000000000
-      internalID: 3377601100916296224
+      spriteID: b0275c233a9098a45be92b304e815ad8
+      internalID: 1524119313
       vertices: []
       indices: 
       edges: []
@@ -319,20 +319,20 @@ TextureImporter:
       name: 1ZombieSpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 72
-        y: 6
-        width: 7
-        height: 8
+        x: 82
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50dab2fad85ea7970800000000000000
-      internalID: 8753561222440004869
+      spriteID: d311f165b8e145e45a06e0a06f0ab5f6
+      internalID: 1775224437
       vertices: []
       indices: 
       edges: []
@@ -341,20 +341,64 @@ TextureImporter:
       name: 1ZombieSpriteSheet_9
       rect:
         serializedVersion: 2
-        x: 92
+        x: 0
         y: 0
-        width: 32
-        height: 37
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ab54c41c26ef2bb20800000000000000
-      internalID: 3148858789588649402
+      spriteID: 5c07717e39595054b9e7d4acc9c436e4
+      internalID: -2049838943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1ZombieSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a97611a996ab049af871e86a4f4d9f
+      internalID: 1097932640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1ZombieSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852d1a80cb73a4243851e54b9f31364c
+      internalID: 1553582706
       vertices: []
       indices: 
       edges: []
@@ -363,7 +407,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c7661a45303d6f84aab5dc85011fd99e
     internalID: 0
     vertices: []
     indices: 
@@ -372,7 +416,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1ZombieSpriteSheet_0: 976791004
+      1ZombieSpriteSheet_1: -1188300462
+      1ZombieSpriteSheet_10: 1097932640
+      1ZombieSpriteSheet_11: 1553582706
+      1ZombieSpriteSheet_2: 2010511993
+      1ZombieSpriteSheet_3: -2019177806
+      1ZombieSpriteSheet_4: -1510079055
+      1ZombieSpriteSheet_5: 1574579604
+      1ZombieSpriteSheet_6: 250991996
+      1ZombieSpriteSheet_7: 1524119313
+      1ZombieSpriteSheet_8: 1775224437
+      1ZombieSpriteSheet_9: -2049838943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

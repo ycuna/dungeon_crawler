@@ -141,19 +141,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 36
-        width: 33
-        height: 108
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97ec7725c65fc78e0800000000000000
-      internalID: -1694209514209292679
+      spriteID: 1c5ef70c136423c49b65a97209529da9
+      internalID: -48866719
       vertices: []
       indices: 
       edges: []
@@ -162,20 +162,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 72
-        width: 33
-        height: 72
+        x: 41
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cbc34d6097e5eeaa0800000000000000
-      internalID: -6129858168906040132
+      spriteID: ffb74590b3cfb694baffa0f6d4bc6796
+      internalID: -1078139414
       vertices: []
       indices: 
       edges: []
@@ -184,20 +184,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 47
-        y: 36
-        width: 32
-        height: 37
+        x: 82
+        y: 108
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09baf92955ac5d410800000000000000
-      internalID: 1501328519678897040
+      spriteID: a94c7110ed8f5ab4989e0e8de5433683
+      internalID: -871105073
       vertices: []
       indices: 
       edges: []
@@ -206,20 +206,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 92
-        y: 36
-        width: 32
-        height: 108
+        x: 0
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc0cbd9550fc36cc0800000000000000
-      internalID: -3718901245388537653
+      spriteID: e00afdabe319b2d4daee452c13a336f6
+      internalID: 774285616
       vertices: []
       indices: 
       edges: []
@@ -228,20 +228,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 31
-        height: 37
+        x: 41
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21f67e0ca7a7b58a0800000000000000
-      internalID: -6315319384815997166
+      spriteID: 1daf1f19be18e914d95239cd8708c3c6
+      internalID: 368159103
       vertices: []
       indices: 
       edges: []
@@ -250,20 +250,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 31
-        height: 37
+        x: 82
+        y: 72
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c43781add8a13520800000000000000
-      internalID: 2680108923113387202
+      spriteID: 95e55cdb43f777844aed2876f0a74d9c
+      internalID: 1972617226
       vertices: []
       indices: 
       edges: []
@@ -272,20 +272,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 6
-        width: 7
-        height: 8
+        x: 0
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92eaf59848c311580800000000000000
-      internalID: -8858232452122956247
+      spriteID: ecfde7fb0ac246443ad60bc7490e1346
+      internalID: -2109223603
       vertices: []
       indices: 
       edges: []
@@ -294,20 +294,20 @@ TextureImporter:
       name: 5ZombieSpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 93
-        y: 0
-        width: 31
-        height: 37
+        x: 41
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 843f95c8d0cf69ea0800000000000000
-      internalID: -5866224329484012728
+      spriteID: 8266c824fd074b942ab053b5ae4db4b0
+      internalID: -1312058017
       vertices: []
       indices: 
       edges: []
@@ -316,20 +316,86 @@ TextureImporter:
       name: 5ZombieSpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 118
-        y: 6
-        width: 6
-        height: 8
+        x: 82
+        y: 36
+        width: 41
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7252a4c92b0d52f0800000000000000
-      internalID: -982616869676363139
+      spriteID: e2b5d3aecaa91f0478388a2b7da553d3
+      internalID: 1584329958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5ZombieSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dff65da21d037439cbb98c04884e40
+      internalID: -314543457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5ZombieSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937382019b3262e4cb228c6ea300e9ce
+      internalID: -739513750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5ZombieSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf5f562b0c6a4f4687d2f8affbad68a
+      internalID: -1505646340
       vertices: []
       indices: 
       edges: []
@@ -338,7 +404,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a95253ccf25eca2429669c250292d44e
     internalID: 0
     vertices: []
     indices: 
@@ -347,7 +413,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5ZombieSpriteSheet_0: -48866719
+      5ZombieSpriteSheet_1: -1078139414
+      5ZombieSpriteSheet_10: -739513750
+      5ZombieSpriteSheet_11: -1505646340
+      5ZombieSpriteSheet_2: -871105073
+      5ZombieSpriteSheet_3: 774285616
+      5ZombieSpriteSheet_4: 368159103
+      5ZombieSpriteSheet_5: 1972617226
+      5ZombieSpriteSheet_6: -2109223603
+      5ZombieSpriteSheet_7: -1312058017
+      5ZombieSpriteSheet_8: 1584329958
+      5ZombieSpriteSheet_9: -314543457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
