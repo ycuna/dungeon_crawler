@@ -10,5 +10,9 @@ public class WeaponColliderScript : MonoBehaviour
         {
             collision.gameObject.GetComponent<EnemyScript>().TakeDamage(1);
         }
+        if(collision.gameObject.CompareTag("Spawner"))
+        {
+            collision.gameObject.GetComponent<SpawnerScript>().TakeDamage(1);
+        }
     }
 }

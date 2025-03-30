@@ -18,6 +18,9 @@ public class PlayerScript : MonoBehaviour
     private float healthWidth;
 
     public TextMeshProUGUI MainText;
+    public TextMeshProUGUI expText;
+
+    private int experience = 0;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -68,5 +71,11 @@ public class PlayerScript : MonoBehaviour
     void HidePlayerBlood()
     {
         transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    public void GainExperience(int amount)
+    {
+        experience += amount;
+        expText.text = experience.ToString();
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     private float range;
-    public Transform target;
+    private Transform target;
     private float minDistance = 5.0f;
     private bool targetCollision = false;
     private float speed = 2.0f;
@@ -21,6 +21,7 @@ public class EnemyScript : MonoBehaviour
     {
         int rnd = UnityEngine.Random.Range(0, sprites.Length);
         GetComponent<SpriteRenderer>().sprite = sprites[rnd];
+        target = GameObject.Find("Player").transform;
     }
 
     void Update()
@@ -75,9 +76,13 @@ public class EnemyScript : MonoBehaviour
         if(health <= 0)
         {
             isDead = true;
+            GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
             GetComponent<SpriteRenderer>().sprite = deathSprite;
+            GetComponent<SpriteRenderer>().sortingOrder = -1;
             GetComponent<Collider2D>().enabled = false;
-            Invoke("EnemyDeath", 1.0f);
+            Destroy(transform.GetChild(0).gameObject);
+            target.GetComponent<PlayerScript>().GainExperience(100);
+            Invoke("EnemyDeath", 1.5f);
         }
         transform.GetChild(0).gameObject.SetActive(true);
         Invoke("HideBlood", 0.25f);
@@ -90,7 +95,6 @@ public class EnemyScript : MonoBehaviour
 
     void EnemyDeath()
     {
-        Destroy(transform.GetChild(0).gameObject);
         Destroy(gameObject);    
     }
 
