@@ -11,14 +11,17 @@ public class EnemyScript : MonoBehaviour
     private float speed = 2.0f;
     private float thrust = 1.5f;
     public int health = 5;
-    private int hitStrength = 20;
+    private int hitStrength = 10;
 
     public Sprite deathSprite;
     public Sprite[] sprites;
 
+    private GameManager gameManager;
+
     private bool isDead = false;
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         int rnd = UnityEngine.Random.Range(0, sprites.Length);
         GetComponent<SpriteRenderer>().sprite = sprites[rnd];
         target = GameObject.Find("Player").transform;
@@ -80,7 +83,7 @@ public class EnemyScript : MonoBehaviour
             GetComponent<SpriteRenderer>().sprite = deathSprite;
             GetComponent<SpriteRenderer>().sortingOrder = -1;
             GetComponent<Collider2D>().enabled = false;
-            Destroy(transform.GetChild(0).gameObject);
+            transform.GetChild(0).gameObject.SetActive(false);
             target.GetComponent<PlayerScript>().GainExperience(100);
             Invoke("EnemyDeath", 1.5f);
         }
@@ -95,7 +98,8 @@ public class EnemyScript : MonoBehaviour
 
     void EnemyDeath()
     {
-        Destroy(gameObject);    
+        gameManager.SetZombieCount(-1);
+        Destroy(gameObject);  
     }
 
     public int GetHitStrength()

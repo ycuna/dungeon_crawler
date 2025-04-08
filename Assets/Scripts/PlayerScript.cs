@@ -11,7 +11,8 @@ public class PlayerScript : MonoBehaviour
     private float speed = 4.0f;
     Rigidbody2D rb; 
 
-    private float health = 100;
+    private float health = 500;
+    private float startHealth;
 
     public bool turnedLeft =  false;
     public Image healthFill;
@@ -25,6 +26,7 @@ public class PlayerScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         healthWidth = healthFill.sprite.rect.width;
+        startHealth = health;
     }
 
 
@@ -63,9 +65,13 @@ public class PlayerScript : MonoBehaviour
                 MainText.text = "Game Over";
                 
             }
-            UnityEngine.Vector2 temp = new UnityEngine.Vector2(healthWidth*(health/100), healthFill.sprite.rect.height);
+            UnityEngine.Vector2 temp = new UnityEngine.Vector2(healthWidth*(health/startHealth), healthFill.sprite.rect.height);
             healthFill.rectTransform.sizeDelta = temp;
             Invoke("HidePlayerBlood", 0.25f);
+        }
+        else if (collision.gameObject.CompareTag("Spawner"))
+        {
+            collision.gameObject.GetComponent<SpawnerScript>().GetGateway();
         }
     }
     void HidePlayerBlood()
