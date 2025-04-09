@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PlayerScript : MonoBehaviour
     private float speed = 4.0f;
     Rigidbody2D rb; 
 
-    private float health = 500;
+    private float health = 200;
     private float startHealth;
 
     public bool turnedLeft =  false;
@@ -19,6 +20,7 @@ public class PlayerScript : MonoBehaviour
     private float healthWidth;
 
     public TextMeshProUGUI MainText;
+    public Image redOverlay;
     public TextMeshProUGUI expText;
 
     private int experience = 0;
@@ -27,6 +29,9 @@ public class PlayerScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         healthWidth = healthFill.sprite.rect.width;
         startHealth = health;
+        MainText.gameObject.SetActive(true);
+        redOverlay.gameObject.SetActive(true);
+        Invoke("HideTitle", 2);
     }
 
 
@@ -63,7 +68,7 @@ public class PlayerScript : MonoBehaviour
                 healthFill.enabled = false;
                 MainText.gameObject.SetActive(true);
                 MainText.text = "Game Over";
-                
+                redOverlay.gameObject.SetActive(true);
             }
             UnityEngine.Vector2 temp = new UnityEngine.Vector2(healthWidth*(health/startHealth), healthFill.sprite.rect.height);
             healthFill.rectTransform.sizeDelta = temp;
@@ -83,5 +88,11 @@ public class PlayerScript : MonoBehaviour
     {
         experience += amount;
         expText.text = experience.ToString();
+    }
+    
+    void HideTitle()
+    {
+        MainText.gameObject.SetActive(false);
+        redOverlay.gameObject.SetActive(false);
     }
 }
