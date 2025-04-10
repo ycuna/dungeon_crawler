@@ -28634,11 +28634,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &562287290 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3027991789068496313, guid: 1c675e94ebe757b4fa22686b0a6fb7f4, type: 3}
-  m_PrefabInstance: {fileID: 402556989}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &592578124
 GameObject:
   m_ObjectHideFlags: 0
@@ -29415,61 +29410,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1192200768 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3027991789068496313, guid: 1c675e94ebe757b4fa22686b0a6fb7f4, type: 3}
-  m_PrefabInstance: {fileID: 1287291550}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1225383992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1225383994}
-  - component: {fileID: 1225383993}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1225383993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225383992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9136823dec412564e8cf26911a779b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawners:
-  - {fileID: 562287290}
-  - {fileID: 1192200768}
-  player: {fileID: 0}
-  weapon: {fileID: 0}
-  hudCanvas: {fileID: 0}
---- !u!4 &1225383994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225383992}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53496015, y: -0.5878374, z: -0.020308387}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1287291550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29624,4 +29564,3 @@ SceneRoots:
   - {fileID: 12931758}
   - {fileID: 402556989}
   - {fileID: 1287291550}
-  - {fileID: 1225383994}

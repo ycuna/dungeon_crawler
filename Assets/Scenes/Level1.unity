@@ -2099,61 +2099,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1197470425 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3027991789068496313, guid: 1c675e94ebe757b4fa22686b0a6fb7f4, type: 3}
-  m_PrefabInstance: {fileID: 5699476668201339509}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1252552833
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1252552835}
-  - component: {fileID: 1252552834}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1252552834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252552833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9136823dec412564e8cf26911a779b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawners:
-  - {fileID: 1197470425}
-  - {fileID: 1834816848}
-  player: {fileID: 0}
-  weapon: {fileID: 0}
-  hudCanvas: {fileID: 0}
---- !u!4 &1252552835
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252552833}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9967764, y: -0.6645453, z: -0.040614516}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1466031528
 GameObject:
   m_ObjectHideFlags: 0
@@ -29833,11 +29778,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1834816848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3027991789068496313, guid: 1c675e94ebe757b4fa22686b0a6fb7f4, type: 3}
-  m_PrefabInstance: {fileID: 1999291013}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1999291013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30098,6 +30038,5 @@ SceneRoots:
   - {fileID: 9046486917710394345}
   - {fileID: 704762694}
   - {fileID: 5699476668201339509}
-  - {fileID: 1252552835}
   - {fileID: 1999291013}
   - {fileID: 673222717}

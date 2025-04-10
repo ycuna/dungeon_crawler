@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour
     private bool targetCollision = false;
     private float speed = 2.0f;
     private float thrust = 1.5f;
-    public int health = 5;
+    public float health = 5;
     private int hitStrength = 10;
 
     public Sprite deathSprite;
@@ -25,6 +25,7 @@ public class EnemyScript : MonoBehaviour
         int rnd = UnityEngine.Random.Range(0, sprites.Length);
         GetComponent<SpriteRenderer>().sprite = sprites[rnd];
         target = GameObject.Find("Player").transform;
+        health += (0.1f * gameManager.GetLevel());
     }
 
     void Update()
@@ -73,7 +74,7 @@ public class EnemyScript : MonoBehaviour
         GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
         health -= amount;
         if(health <= 0)

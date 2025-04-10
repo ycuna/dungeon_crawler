@@ -6,11 +6,16 @@ public class SpawnerScript : MonoBehaviour
     public GameObject[] spawnPoints;
     private float timer;
     private int spawnIndex;
-    public int health = 5;
+    public float health = 5;
     public Sprite deathSprite;
     public Sprite gateway;
     public bool isGateway = false;
+
+    public Sprite weaponUpgrade;
+    private bool isWeaponUpgrade = false;
+
     public Sprite[] sprites;
+
 
     private GameManager gameManager;
 
@@ -35,7 +40,7 @@ public class SpawnerScript : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
         if(GetComponent<SpriteRenderer>().sprite != gateway)
         {
@@ -48,6 +53,10 @@ public class SpawnerScript : MonoBehaviour
                 {
                     Invoke("OpenGateway", 0.5f);
                 } 
+                else if (isWeaponUpgrade)
+                {
+                    Invoke("OpenWeapon", 0.5f);
+                }
                 else
                 {
                     Invoke("DestroySpawner", 0.6f);
@@ -84,11 +93,25 @@ public class SpawnerScript : MonoBehaviour
         isGateway = maybe;
     }
 
-    public void GetGateway()
+    public void GetGatewayWeapon()
     {
         if (GetComponent<SpriteRenderer>().sprite == gateway)
         {
             gameManager.LoadLevel();
+        } else if (GetComponent<SpriteRenderer>().sprite == weaponUpgrade)
+        {
+            GameObject.Find("Weapon").GetComponent<WeaponScript>().UpgradeWeapon();
+            Destroy(gameObject);
         }
+    }
+
+    public void SetWeapon(bool maybe)
+    {
+        isWeaponUpgrade = true;
+    }
+
+    private void OpenWeapon()
+    {
+        GetComponent<SpriteRenderer>().sprite = weaponUpgrade;
     }
 }

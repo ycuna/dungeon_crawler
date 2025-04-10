@@ -12,7 +12,7 @@ public class PlayerScript : MonoBehaviour
     private float speed = 4.0f;
     Rigidbody2D rb; 
 
-    private float health = 200;
+    private float health = 800;
     private float startHealth;
 
     public bool turnedLeft =  false;
@@ -76,7 +76,7 @@ public class PlayerScript : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Spawner"))
         {
-            collision.gameObject.GetComponent<SpawnerScript>().GetGateway();
+            collision.gameObject.GetComponent<SpawnerScript>().GetGatewayWeapon();
         }
     }
     void HidePlayerBlood()

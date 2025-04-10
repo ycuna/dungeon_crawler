@@ -32882,6 +32882,7 @@ GameObject:
   - component: {fileID: 1664473956}
   - component: {fileID: 1664473955}
   - component: {fileID: 1664473954}
+  - component: {fileID: 1664473957}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Weapon
@@ -32901,6 +32902,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85eab10cb36eca64ba2eefcf3f2a9534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgrades:
+  - {fileID: 21300000, guid: 71a2e7dbc5e446441b2047eafba8911e, type: 3}
+  - {fileID: 7755190843332689564, guid: 465d48b823818a24b8af4d5c81dfa9e8, type: 3}
+  - {fileID: -2647575487390200252, guid: e71dafe5435702b4eb1d01d4bfb0de0b, type: 3}
+  - {fileID: -6006273676293942976, guid: 426818b9b00904945887815f95e5720c, type: 3}
+  weaponPower: 1
   player: {fileID: 1537873330}
 --- !u!212 &1664473955
 SpriteRenderer:
@@ -32973,6 +32980,43 @@ Transform:
   - {fileID: 610142142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1664473957
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664473953}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.3, y: 0.3}
+  m_Size: {x: 0.15, y: 0.15}
+  m_Direction: 0
 --- !u!1 &1915627546
 GameObject:
   m_ObjectHideFlags: 0
