@@ -43,16 +43,16 @@ public class WeaponScript : MonoBehaviour
         }
     }
 
-    void Attack()
+     void Attack()
     {
         if(player.GetComponent<PlayerScript>().turnedLeft)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            transform.localScale = new UnityEngine.Vector3(-1.8f, 1.8f, 1);
             weaponX = -0.3f;
         }
         else
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            transform.localScale = new UnityEngine.Vector3(1.8f, 1.8f, 1);
             weaponX = 0.3f;
         }
         pos = player.transform.position;
